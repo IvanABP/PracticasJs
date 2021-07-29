@@ -13,5 +13,5 @@ var valor = Number.parseInt(prompt ("Digite el valor de las horas extras: "));
 var resultadoExtras = horasExtras * valor;
 var resultadoSueldo = resultadoExtras + sueldo;
 
-alert(resultadoSueldo);
+alert("El sueldo del empleado es de: "+resultadoSueldo+ " \nHabiendo echo: "+horasExtras+" horas extras que se suman a su sueldo basico");
 
